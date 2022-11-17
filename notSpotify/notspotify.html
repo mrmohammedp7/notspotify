@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Spotify</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Hind:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- head -->
+    <div class="tophead">
+        <p class="pubplay">PUBLIC PLAYLIST</p>
+        <h1>Hot Hits India</h1>
+
+        <p id="hotracks">The hottest tracks in India.</p>
+
+        <div class="notspotify">
+            <img src="icon logo.png">
+            <p>NotSpotify</p>
+        </div>
+    </div>
+
+    <!-- body -->
+    <div class="body">
+
+        <div class="navbar">
+            <div class="pausegreen"> <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                    role="img" viewBox="0 0 16 16" class="pause">
+                    <path
+                        d="M2.7 1a.7.7 0 00-.7.7v12.6a.7.7 0 00.7.7h2.6a.7.7 0 00.7-.7V1.7a.7.7 0 00-.7-.7H2.7zm8 0a.7.7 0 00-.7.7v12.6a.7.7 0 00.7.7h2.6a.7.7 0 00.7-.7V1.7a.7.7 0 00-.7-.7h-2.6z">
+                    </path>
+                </svg></div>
+
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-hidden="true" viewBox="0 0 16 16" class="like">
+                <path
+                    d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z">
+                </path>
+
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" class="options">
+                <path
+                    d="M4.5 13.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm15 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm-7.5 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+            </svg>
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img" class="search"
+                aria-hidden="true" viewBox="0 0 24 24">
+                <path
+                    d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"
+                    fill-opacity="0.7"></path>
+            </svg>
+        </div>
+        <!-- <div class="listcol" class="cgrey">
+            <p class="ttitle"># TITLE </p>
+            <p>ALBUM </p>
+            <p>DATE ADDED</p>
+            <img src="icon clock.png" alt="clock" class="clock">
+        </div>
+        <br>
+        <hr> -->
+        <div class="table">
+            <table class="list">
+                <thead>
+                    <tr>
+                        <th>
+                            <p id="title"># TITLE</p>
+                        </th>
+                        <th>ALBUM</th>
+                        <th>DATE ADDED</th>
+                        <th><img src="icon clock.png" alt="clock"></th>
+                    </tr>
+                </thead>
+                <!-- song details -->
+                <div class="songlist">
+                    <tr>
+                        <td class="title">
+                            <p class="number"> 1 </p><img src="uti.jpg" alt="cover" class="img">
+                            <div class="songdetails">
+                                <p class="songname"> Under the Influence</p>
+                                <p class="artistname"> Chris Brown</p>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="albumname">Indigo</p>
+                        </td>
+                        <td>
+                            <p class="dateadded">3 days ago</p>
+                        </td>
+                        <td>
+                            <p class="time">3:21</p>
+                        </td>
+                    </tr>
+                    <!-- song details end -->
+
+                    <!-- song details -->
+                    <tr>
+                        <td class="title">
+                            <p class="number"> 2 </p><img src="double take.jpg" alt="cover" class="img">
+                            <div class="songdetails">
+                                <p class="songname"> double take</p>
+                                <p class="artistname"> dhruv</p>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="albumname">double take</p>
+                        </td>
+                        <td>
+                            <p class="dateadded">5 days ago</p>
+                        </td>
+                        <td>
+                            <p class="time">2:52</p>
+                        </td>
+                    </tr>
+                </div>
+                <!-- song details end -->
+            </table>
+        </div>
+
+    </div>
+    <script src="notSpotifycode.js"></script>
+</body>
+
+</html>
